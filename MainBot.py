@@ -19,7 +19,7 @@ def stream_saver(search_terms):
 
         def on_status(self, status):
             print (status.author.screen_name, status.created_at, status.text)
-            stattext = "@" + status.author.screen_name + " " + "Jason is soft!"
+            stattext = "@" + status.author.screen_name + " " + "yes sir!"
             api.update_status(stattext, status.id)
             # Writing status data
 
